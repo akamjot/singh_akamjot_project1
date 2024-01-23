@@ -28,6 +28,11 @@ article {
 img {
     margin-top: 20px;
     margin-bottom: 30px;
+	padding-right: 20px;
+}
+
+img:last-of-type {
+	padding-right: 0;
 }
 h2 {
 	font-family: "Times New Roman", Times, serif;
@@ -46,6 +51,17 @@ p {
 
 /* This is referred to as an adjacent selector. It will select only the element that is immediately preceded by the former element. */
 h2 + p::first-letter {
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 rgb(80, 227, 80);
+	font-size: 32px;
+	padding: 14px 6px;
+	margin-right: 8px;
+	float: left;
+}
+
+p::first-letter {
 	color: white;
 	background-color: black;
 	border-radius: 5px;
