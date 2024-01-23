@@ -17,8 +17,8 @@
         display: grid;
         grid-template-columns: repeat(4, 85px);
         grid-column-gap: 16px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
 }
 
 article {
@@ -71,3 +71,4 @@ p::first-letter {
 	margin-right: 8px;
 	float: left;
 }
+
