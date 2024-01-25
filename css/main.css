@@ -28,14 +28,16 @@ article {
 img {
     margin-top: 20px;
     margin-bottom: 30px;
-	padding-right: 20px;
+	margin-left: 10px;
+
 }
 
 img:last-of-type {
-	padding-right: 0;
+	margin-left: 0;
+	margin-inline-end: 10px;
 }
 h2 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Roboto", "Nunito", sans-serif;
 	font-size: 38px;
 	line-height: 45px;
 	letter-spacing: -1px;
@@ -45,6 +47,7 @@ h2 {
 }
 
 p {
+	font-family:"Nunito", sans-serif;
 	line-height: 28px;
 	margin-bottom: 20px;
 }
@@ -72,3 +75,24 @@ p::first-letter {
 	float: left;
 }
 
+.red p::first-letter {
+	color: white;
+	background-color: red;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 black;
+	font-size: 32px;
+	padding: 14px 6px;
+	margin-right: 8px;
+	float: left;
+}
+
+.green p::first-letter {
+	color: white;
+	background-color: green;
+	border-radius: 5px;
+	box-shadow: 3px 3px 0 black;
+	font-size: 32px;
+	padding: 14px 6px;
+	margin-right: 8px;
+	float: left;
+}
